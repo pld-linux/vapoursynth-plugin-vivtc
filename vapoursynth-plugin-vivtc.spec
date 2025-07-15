@@ -25,7 +25,7 @@ telekina. Jest to przepisana część filtrów TIVTC tritical.
 
 %prep
 %setup -q -n vivtc-R%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %meson build
